@@ -1,0 +1,56 @@
+=========================================
+## Steps##
+=========================================
+#1 create Maven Project.
+=========================
+#2 Add Following Dependency.
+
+<dependencies>
+		<dependency>
+			<groupId>javax.transaction</groupId>
+			<artifactId>jta</artifactId>
+			<version>1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.0.5.Final</version>
+		</dependency>
+		<dependency>
+
+			<groupId>mysql</groupId>
+
+			<artifactId>mysql-connector-java</artifactId>
+
+			<version>5.1.6</version>
+
+		</dependency>
+
+		<dependency>
+
+			<groupId>org.javassist</groupId>
+
+			<artifactId>javassist</artifactId>
+
+			<version>3.18.0-GA</version>
+
+		</dependency>
+
+	</dependencies>
+ =============================================
+ 
+ #3 create Domain class or entity Class.
+ =======================================
+ #4 create hibernate.cfg.xml file
+ =================================
+ #5 write test application class.
+ 
+ 
+
